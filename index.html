@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Mi Pagina Personal Erick Estrada Luna</title>
 </head>
+
 <body>
     <header>
-        <h1>Bienvenidos a mi Pagina Personal 💚</h1>
-        <img width="30%" src="https://scontent.fpbc4-1.fna.fbcdn.net/v/t39.30808-6/476817289_1344646300287632_4896910942031034234_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHEbznJyOMeM6rJwPz8-JQT-ftM3DXNcmL5-0zcNc1yYvKQ1E0ZMvs5nggIn249AmDT2hWBNvvV-sjBwuYcHVAv&_nc_ohc=zyRBIcFJRcAQ7kNvwFXouaf&_nc_oc=Adkv1P12Otd1aZ6sNFmW_PqTwYU66n5mmN1PktCt0YZEbeeeAAAa4n-MLQ0jxcUCvDQ&_nc_zt=23&_nc_ht=scontent.fpbc4-1.fna&_nc_gid=iW3HpNLNKd2O_1APrn_tLA&oh=00_AfbQXmjyMBqMtVXbI1KNgiFA0YA-D8TX5pDVpRiBbzMRGQ&oe=68D0E0F4" 
-        alt="Foto de Erick Estrada">
+        <div class="header-content">
+            <img src="./images/me.jpg" alt="Foto de Erick Estrada">
+            <div>
+                <h1>Bienvenidos a mi Pagina Personal </h1>
+                <h2>Hola</h2>
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-        <h2>Erick Estrada Luna</h2>
-        <p>Alumno de la Uiversidad Tecnologica de Tlaxcala</p>
-        </section>
-        <section>
-            <h3>Curiosidades sobre mí</h3>
+        <section class="card">
+            <picture>
+                <img src="./images/img 4.jpg" alt="paisaje"></ul>
+
+            </picture>
             <ul>
-                <li>Originario de Tetla </li>
-                <li>Amo a Ariana Grande y Lana del Rey</li>
+                <h3>Erick Estrada Luna</h3>
+                <li>Estudiante de la Carrera de Entornos Virtuales y Negocios Digitales</li>
+                <li>Alumno de la Uiversidad Tecnologica de Tlaxcala</li>
             </ul>
         </section>
-        <section>
-            <h3>Mis peliculas favoritas</h3>
+        <section class="card">
+            <picture>
+                <img src="./images/ariana.jpeg" alt="ariana">
+            </picture>
             <ul>
+                <h3>Curiosidades sobre mí</h3>
+                <li>Originario de Tetla </li>
+                <li>Amo a Ariana Grande</li>
+            </ul>
+        </section>
+        <section class="card">
+            <picture>
+                <img src="./images/cmbyn3.jpeg" alt="cmbyn">
+            </picture>
+            <ul>
+                <h3>Mis peliculas favoritas</h3>
                 <li>Call Me By Your Name</li>
                 <li>KungFu Panda 2</li>
                 <li>Wicked</li>
@@ -34,10 +54,13 @@
     </main>
     <footer>
         <h3>Contacto</h3>
-        <input type="241-153-5078" placeholder="Enviame un mensaje">
-        <button>Enviar</button>
-        <br>
         <p>Visita mi perfil en <a href="https://www.facebook.com/erick.estrada.659277/">Facebook</a></p>
+        <div>
+            <input type="241-153-5078" placeholder="Enviame un mensaje">
+            <button id="btn">Enviar</button>
+
+        </div>
     </footer>
 </body>
+
 </html>
