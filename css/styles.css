@@ -70,13 +70,10 @@ main .card picture{
 
 main .card img{
     width: 100%;
-    opacity: 0.5;
 
 }
 
-main .card img:hover {
-    opacity: 1.0;
-}
+
 
 main .card ul {
     width: 100%;
